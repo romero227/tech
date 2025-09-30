@@ -5,14 +5,14 @@
       padding: 0;
       background-color: #fff;
       color: #f5efef;
-      min-height: 150vh;
+      min-height: 200vh;
     }
 
  
     header {
       background-color: #f57c00; /* laranja */
       color: white;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
     }
 
@@ -37,7 +37,7 @@
    
 
     .btn {
-      background-color: #f57c00;
+      background-color: #000000;
       color: white;
       padding: 15px 30px;
       font-size: 18px;
@@ -94,15 +94,16 @@
 }
 
 footer {
+
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
   background: #111;
   color: white;
   text-align: center;
   padding: 10px 0;
-  
 
 }
 
@@ -123,7 +124,7 @@ body {
     height: 300px;
 }
 .hero p {
-    color: #FFFFFF; /* Muda a cor do texto para branco */
+    color: #faf6f6; /* Muda a cor do texto para branco */
     font-size: 1.2em; /* Opcional: Aumenta um pouco o tamanho para visibilidade */
     margin-top: 15px; /* Opcional: Adiciona um pequeno espaço acima */
 }
